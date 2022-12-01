@@ -6,22 +6,22 @@
 		<div>
 			<form class="login" action="/register" method="POST">
                 @csrf
-				<h1>Halaman Register</h1>
+				<h1 style="font-size: 34px">Halaman Register</h1>
 				<div>
-					<input type="text" name="name" class="login__input" placeholder="Name">
+					<input type="text" name="name" class="login-input" placeholder="Name">
 				</div>
 				<div>
-					<input type="text" name="email" class="login__input" placeholder="Email">
+					<input type="text" name="email" class="login-input" placeholder="Email">
 				</div>
 				<div>
-					<input type="password" name="password" class="login__input" placeholder="Password">
+					<input type="password" name="password" class="login-input" placeholder="Password">
 				</div>
-				<button type="submit">
+				<button type="submit" class="button-submit">
 					<span>Register</span>
 					<i></i>
 				</button>				
 			</form>
-			<a href="/">have an account yet</a>
+			<a href="/" style="margin-left: 30em">have an account yet</a>
 
 </div>
 @endsection

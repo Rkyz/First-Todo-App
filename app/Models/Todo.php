@@ -9,5 +9,5 @@ class Todo extends Model
 {
     use HasFactory;
     protected $table = 'todos';
-    public $fillable = ['name', 'is_done'];
+    public $fillable = ['name','is_done'];
 }

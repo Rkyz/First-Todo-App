@@ -13,8 +13,8 @@
                     <div class="table-responsive">
                         <table class="table">
                             <tr>
-                                <th>Name</th>
-                                <th>Is Done</th>
+                                <th>Activity</th>
+                                <th>Status</th>
                                 <th>Action</th>
                             </th>
 

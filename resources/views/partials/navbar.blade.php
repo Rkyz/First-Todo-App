@@ -11,13 +11,13 @@
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link" href="../todo">Home</a>
+            <a class="nav-link" href="/todo">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="todos/create">create</a>
+            <a class="nav-link" href="/todos/create">create</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="logout">logout</a>
+            <a class="nav-link" href="/logout">logout</a>
           </li>
         </ul>
       </div>

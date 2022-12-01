@@ -7,7 +7,7 @@
     margin-top: 300px;
     text-align: center;
     justify-content: center;
-    margin-left: 25rem;
+    margin-left: 35rem;
 }
 
 .btn-primary{
@@ -25,5 +25,25 @@
 
 .container-index{
     margin-left: 400px;
-
 }
+
+.container-edit{
+    margin-left: 35em;
+    margin-top: 250px;
+}
+
+.login{
+    margin-left: 30em;
+    margin-top: 250px;
+}
+
+.login-input{
+    width: 270px;
+}
+
+.button-submit{
+    width: 270px;
+    background-color: blueviolet;
+    color: white;
+}
+

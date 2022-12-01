@@ -24,7 +24,7 @@ Route::middleware('isGuest')->group(function (){
     Route::get('/register',[MainController::class,'registerPage'])->name('register');
     Route::post('/register', [RegisterController::class, 'register']);
  });
-Route::get('logout', [LogoutController::class, 'logout'])->name('logout');
+Route::get('/logout', [LogoutController::class, 'logout'])->name('logout');
 
 Route::get('/todo', [TodoController::class, 'index']);
 Route::get('/todos/create', [TodoController::class, 'create']);
