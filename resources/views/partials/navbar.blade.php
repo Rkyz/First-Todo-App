@@ -1,4 +1,6 @@
 @if(Auth::check())
+<form role="form" method="POST" action="{{ url('/todos') }}">
+  {{ csrf_field() }}
 <div class="container">
   <nav class="navbar navbar-expand-lg bg-light">
     <div class="container-fluid">
@@ -12,13 +14,14 @@
             <a class="nav-link" href="data">data</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="create">create</a>
+            <a class="nav-link" href="todos/create">create</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="logout">logout</a>
           </li>
         </ul>
       </div>
+      </form>
     </div>
   </nav>
 </div>
